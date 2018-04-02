@@ -1,0 +1,22 @@
+{
+  "name": "digraph",
+  "version": "1.0.0",
+  "description": "In-browser generator of simple directed graphs",
+  "main": "src/index.ts",
+  "author": "Devin Samarin <me@dsamar.in>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "dist": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@types/cytoscape": "^3.1.7",
+    "@types/dagre-d3": "^0.4.37",
+    "awesome-typescript-loader": "^4.0.1",
+    "cytoscape": "^3.2.10",
+    "dagre-d3": "^0.6.1",
+    "typescript": "^2.7.2",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12"
+  }
+}

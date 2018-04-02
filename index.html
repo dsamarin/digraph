@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Digraph</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="dist/style.css" />
+</head>
+<body>
+    <div class="header">
+        <h1>Digraph</h1>
+        <p class="author">Devin Samarin</p>
+        <p class="directions">Enter each coordinate pair in the relation on its own line.</p>
+    </div>
+    <div class="panels">
+        <div class="panel panel-editor">
+            <textarea id="editor" class="editor" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+        </div>
+        <div class="panel panel-result" id="result">
+            <button id="copy" class="copy">Copy Image</button>
+            <svg xmlns="http://www.w3.org/2000/svg" id="svg-canvas" width="600" height="400"></svg>
+        </div>
+    </div>
+    <script src="dist/digraph.js"></script>
+</body>
+</html>
